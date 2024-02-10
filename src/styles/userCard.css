@@ -1,0 +1,56 @@
+.user_card{
+  width: 350px;
+  border: 2px solid #E0E0E0;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.user_name{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.user_item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.user_label{
+  margin-bottom: 0.3rem;
+  color: #E0E0E0;
+}
+
+.user_button{
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.user_btn{
+  border: none;
+  aspect-ratio: 1;
+  height: 3rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.user_btn:hover{
+  filter: brightness(1.1);
+}
+
+.btn_delete{
+  background-color: #D84647;
+}
+
+.btn_edit{
+  background-color: #E1E1E1;
+}
+
+hr{
+  background-color: #E0E0E0;
+  border: none;
+  height: 1px;
+}
